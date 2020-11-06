@@ -1,4 +1,4 @@
-export default  {
+const data=  {
     products: [{
         _id: '1',
         name: 'Slim shirt',
@@ -14,3 +14,4 @@ export default  {
     
 ]
 }
+export default data;
