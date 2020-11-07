@@ -15,7 +15,7 @@ function App() {
     <div className="grid-container">
         
         <header className="header">
-            <div className="brand">
+            <div className="header-links-services">
                 
                 <Link to='/' >ELEDA ALTER</Link>
                
