@@ -27,7 +27,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;  
-  background-color: gray;
+  background-color: darkgray;
   height: 5.5rem;
 
 }
@@ -150,7 +150,7 @@ margin: 1rem 10rem;
   justify-content: space-evenly;
   justify-items: center;
   flex-wrap: wrap;
-  background-color: slategray;
+  background-color: darkgrey;
   height: 100%;
   border-radius: 5rem;
   margin-left: 5rem;
