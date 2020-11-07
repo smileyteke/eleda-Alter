@@ -9,10 +9,10 @@ function App() {
   
   
   return (
-      <BrowserRouter>
-      
+      <BrowserRouter>      
      
     <div className="grid-container">
+        
         
         <header className="header">
             <div className="header-links-services">
