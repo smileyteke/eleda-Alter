@@ -209,4 +209,58 @@ margin: 1rem 10rem;
 .email{
   font-size: xx-large;
 }
+@media all and (max-width:500px){
+  .grid-container{
+    display: inline-grid;
+    grid-template-areas: 
+    'header'
+    'main'
+    'footer'; 
+   
+    background-image:url('./d1.jpg');
+    background-repeat: repeat;
+      
+  
+  }
+  
+.product{
+  display: flex ;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin-left: 5rem;
+  margin-top: 5rem;
+}
+
+
+.product-brand{
+  font-size: x-large;
+  color:black;
+  font-weight: bold;
+  max-width: 70rem;
+  max-height: 45rem;
+  border: 0.1rem #b8b5b5 solid;
+  background-color: #eeebebef ;
+  border-radius: 10rem;
+  
+
+}
+.product-brand p{
+  display: block;
+  list-style-type: none;
+  margin: 1rem 5rem;
+  font-family: cursive;
+}
+
+
+.product-image{
+  max-width: 35rem;
+  max-height: 35rem;
+  border: 0.1rem #808080 solid;
+  border-radius: 30rem;
+  background-color: #f8f8f8;
+  padding: 3rem;
+}
+}
 
