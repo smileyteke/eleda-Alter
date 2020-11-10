@@ -17,9 +17,7 @@ body {
   'main'
   'footer';  
   height: 100%;
-  background-image:url('./d1.jpg');
-  background-repeat: no-repeat;
-    background-size: cover
+  
 
 }
 .header{
