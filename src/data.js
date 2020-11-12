@@ -1,7 +1,7 @@
 const data=  {
-    products: [{        
-        image:  '/images/favicon.ico.jpg',
-        backgroundImage: '/images/d1.jpg'
+    logo: [{        
+        image:  '/images/logo.jpg',
+      
         
     },
     

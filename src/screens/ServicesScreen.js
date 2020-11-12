@@ -1,205 +1,198 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import Table from 'react-bootstrap/Table';
 
-function ServicesScreen (props) {
+function ServicesScreen () {
     
-    return  <main className='main-productscreen'>
-    <div className="content-services">
-        <div>       
-            <Link to='/'> BACK </Link>      
+    return   <div className= 'main'>   
+      <div className="table">
+    
+  <thead>   
+     
          
-        <div className='services'>
-            <ul><h4>Trouser/Pant</h4>
-                <li>
-                Shorten/Lenghten Standard                
-                </li>
-                <li>
-                Lenghten Maximum (add false hem)   
-                </li>
-                <li>
-                Take in waist (center back)
-                </li>
-                <li>
-                Taper Leg
-                </li>
-                <li>
-                New Zipper from
-                </li>
-                <li>
-                Restitch Crotch
-                </li>
-                <li>
-                Button (bulk discount available)
-                </li>
-            </ul>  
-           < ul><h4>Price</h4>
-                <li>
-                   $15.00               
-                </li>
-                <li>
-                $15.00
-                </li>
-                <li>
-                $14.50
-                </li>
-                <li>
-                $14.50
-                </li>
-                <li>
-                $17.00
-                </li>
-                <li>
-                $10.00
-                </li>
-                <li>
-                $2.00
-                </li>
-            </ul>      
-            <ul><h4>Casual Dress</h4>
-                <li>
-                Shorten straps standard
-                </li>
-                <li>
-                Take in standard from
-                </li>
-                <li>
-                Shorten hem standard from
-                </li>                
-            </ul>
-            <ul><h4>Price</h4>
-                <li>
-                $10.00
-                </li>
-                <li>
-                $10.00
-                </li>
-                <li>
-                $15.00
-                </li>                
-            </ul>
-            <ul><h4>Shirt</h4>
-                <li>
-                Shorten sleeves original
-                </li>
-                <li>
-                Take-in side seams
-                </li>
-                <li>
-                Take-im (create back darts)
-                </li>
-                <li>
-                Take in sides & darts
-                </li>
-                <li>
-                Button (bulk discount available)
-                </li>
-                <li>
-                Shorten hem from
-                </li> 
-                </ul>              
-            <ul><h4>Price</h4>
-                <li>
-               $15.00
-                </li>
-                <li>
-                $15.00
-                </li>
-                <li>
-                $15.00
-                </li>
-                <li>
-                $10.00
-                </li>
-                <li>
-                $2.00
-                </li>
-                <li>
-                $15.00
-                </li>                
-            </ul>
-            <ul><h4>Jean</h4>
-                <li>
-                Shorten standard
-                </li>
-                <li>
-                Shorten original
-                </li>
-                <li>
-                Take in waist
-                </li>
-                <li>
-                Taper Leg knee down
-                </li>
-                <li>
-                Taper leg full
-                </li>
-                <li>
-                Mend  Crotch both sides
-                </li>
-                <li>
-                Standard mending from
-                </li>
-                <li>
-                    New zipper from
-                </li>
-            </ul>
-            <ul><h4>Price</h4>
-                <li>
-               $15.00
-                </li>
-                <li>
-                $18.00
-                </li>
-                <li>
-                $18.00
-                </li>
-                <li>
-                $13.00
-                </li>
-                <li>
-                $15.00
-                </li>
-                <li>
-                $10.00
-                </li>
-                <li>
-                $15.00
-                </li>
-                <li>
-                $17.00
-                </li>
-            </ul>
-            <ul><h4>Skirt</h4>
-                <li>
-                Shorten standard from
-                </li>
-                <li>
-                Take in waist standard
-                </li>
-                <li>
-                New zipper from
-                </li>               
-                </ul>
-            <ul><h4>Price</h4>
-                <li>
-                $15.00
-                </li>
-                <li>
-                $18.00
-                </li>
-                <li>
-                $17.00
-                </li>                
-            </ul>            
-         </div>
-         </div>
+  </thead>
+  <tbody>    
+    <th colSpan='1'>Trouser/pant</th>   
+    <tr colSpan='1' >      
+      <td>Shorten/Lenghten Standard  </td>     
+      <td>$15.00</td>     
+    </tr>
+    <tr>      
+      <td>Lenghten maximum (add false hem)</td>
+      
+      <td>$15.00</td>      
+    </tr>
+    <tr>        
+      <td>Take in waist(center back)</td>
+      
+      <td>$15.00</td>   
+     
+    </tr>
+    <tr>     
+      <td>Taper leg </td>
+     
+      <td>$14.50</td>     
+    </tr>
+    <tr>
+      
+      <td>New zipper from </td>
+      
+      <td>$17.00</td>
+      </tr>
+      <tr>
+      
+      <td>Restitch crotch </td>
+      
+      <td>$10.00</td>
+      </tr>
+      <tr>       
+      
+      <td>Button (bulk discount available) </td>
+      
+      <td>$2.00</td>    
          
-         </div>     
-         </main>        
-                 
-         
+     </tr>  
+     
+     <th colSpan='2'>Casual Dress</th>
+     <tr>
+      
+      <td>Shorten straps Standard </td>
+      
+      <td>$10.00</td>
+     
+    </tr>
+    <tr>
+      
+      <td>Take in standard from</td>
+     
+      <td>$10.00</td>
+      
+    </tr>
+    <tr>
+       
+      <td>Shorten hem standard from</td>
+     
+      <td>$15.00</td>   
+      </tr>              
+             
+      <th colSpan='2'>Shirt</th>
+      <tr>
+      
+      <td>Shorten sleeves original </td>
+      
+      <td>$15.00</td>
+     
+    </tr>
+    <tr>
+      
+      <td>Take in side seams</td>
+      
+      <td>$15.00</td>
+      
+    </tr>
+    <tr>
         
-        
-  
-} 
+      <td>Take in (create back darts)</td>
+      
+      <td>$15.00</td>     
+      
+    </tr>
+    <tr>
+      
+      <td>Take in sides & darts </td>
+      
+      <td>$10.00</td>     
+    </tr>
+    <tr>
+      
+      <td>Shorten hem from </td>
+     
+      <td>$15.00</td>
+      </tr>     
+      <tr>
+     
+      <td>Button (bulk discount available) </td>
+      
+      <td>$2.00</td>
+    </tr>
+    
+    <th colSpan='2'>Jean</th>
+    
+    <tr>
+     
+      <td>Shorten Standard </td>
+      
+      <td>$15.00</td>     
+    </tr>
+    <tr>
+      
+      <td>Shorten original</td>
+      
+      <td>$18.00</td>      
+    </tr>
+    <tr>
+       
+      <td>Take in waist</td>
+     
+      <td>$18.00</td>    
+    </tr>
+    <tr>
+      
+      <td>Taper leg knee down</td>
+     
+      <td>$13.00</td>     
+    </tr>
+    <tr>
+      
+      <td>Taper leg full </td>
+      
+      <td>$15.00</td>
+      </tr>
+      <tr>
+     
+      <td>Mend crotch both sides </td>
+      
+      <td>$10.00</td>
+      </tr>
+      <tr>
+      
+      <td>Standard mending from </td>
+      
+      <td>$15.00</td>
+      </tr><tr>
+      
+      <td>New zipper from</td>
+      
+      <td>$12.00</td>     
+    </tr>    
+   
+    <th colSpan='2'>Skirt</th> 
+    
+    <tr>
+      
+      <td>Shorten Standard from </td>
+     
+      <td>$15.00</td>    
+    </tr>    
+         
+    <tr>
+       
+      <td>Take in waist standard from</td>
+      
+      <td>$18.00</td>   
+    </tr>   
+    <tr>
+      
+      <td>New zipper from </td>
+      
+      <td>$17.00</td>      
+    </tr>    
+  </tbody>
+
+
+</div>
+<footer>Developed by Ismail Teke</footer>
+</div> 
+   
+
+}
+
 export default ServicesScreen;

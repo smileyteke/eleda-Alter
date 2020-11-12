@@ -5,54 +5,40 @@ import HomeScreen from './screens/HomeScreen';
 import ContactScreen from './screens/ContactScreen';
 import ServicesScreen from './screens/ServicesScreen';
 
-function App() {
-  
+// import SocialFollow from "./SocialFollow"
+
+function App() { 
   
   return (
-      <BrowserRouter>      
-     
-    <div className="grid-container">
-        
-        
-        <header className="header">
-            <div className="header-links-services">
-                
-                <Link to='/' >ELEDA ALTER</Link>
-               
-            </div>
-           <div className="header-links-services">
-           
-               <Link to={'/product/:id'}>SERVICES </Link>
-               
-               
-           </div>
-           <div className="header-links-services">
-           
-           <Link to={'/contact/'}>CONTACT </Link>
-           
-           
-       </div>
-           
-          
-        </header>
-        
-        <main className="main">
-            <div className="content">
-                <Route path = '/product/:id' component ={ServicesScreen} />
+      <BrowserRouter> 
+      <div className='main'>
+      <header className="header">
+            <div className="header-links-services">                
+                <Link to='/' >ELEDA ALTER</Link>               
+            </div>   
+            <div className="header-links-services">           
+            <Link to={'/table'}>SERVICES </Link>        
+           </div>          
+           <div className="header-links-services">           
+             <Link to={'/contact/'}>CONTACT </Link>          
+           </div>              
+        </header>         
+    
+      <div className='home'>         
+                   
+            <div className='main'>                
                 <Route path = '/' exact={true} component= {HomeScreen} />
                 <Route path = '/contact/' component ={ContactScreen} />
-               
+                <Route path = '/table' component ={ServicesScreen}/>  
 
-            </div>
-            
-            
-        </main>
-        <footer className="footer">
-           Developed by Ismail Teke
-        </footer>
-    </div>
+                
 
-    
+            </div>    
+            </div>   
+            </div> 
+   
+
+
     </BrowserRouter>
   );
 }
