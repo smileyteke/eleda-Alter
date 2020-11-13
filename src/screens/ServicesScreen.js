@@ -2,16 +2,13 @@
 
 function ServicesScreen () {
     
-    return   <div className= 'main'>   
-      <div className="table">
-    
-  <thead>   
-     
-         
-  </thead>
+    return   <div className= 'main'> 
+      
+      <div className="table">    
+  
   <tbody>    
-    <th colSpan='1'>Trouser/pant</th>   
-    <tr colSpan='1' >      
+    <th>Trouser/pant</th>   
+    <tr>      
       <td>Shorten/Lenghten Standard  </td>     
       <td>$15.00</td>     
     </tr>
@@ -51,7 +48,7 @@ function ServicesScreen () {
          
      </tr>  
      
-     <th colSpan='2'>Casual Dress</th>
+     <th>Casual Dress</th>
      <tr>
       
       <td>Shorten straps Standard </td>
@@ -73,7 +70,7 @@ function ServicesScreen () {
       <td>$15.00</td>   
       </tr>              
              
-      <th colSpan='2'>Shirt</th>
+      <th>Shirt</th>
       <tr>
       
       <td>Shorten sleeves original </td>
@@ -114,7 +111,7 @@ function ServicesScreen () {
       <td>$2.00</td>
     </tr>
     
-    <th colSpan='2'>Jean</th>
+    <th >Jean</th>
     
     <tr>
      
@@ -164,7 +161,7 @@ function ServicesScreen () {
       <td>$12.00</td>     
     </tr>    
    
-    <th colSpan='2'>Skirt</th> 
+    <th>Skirt</th> 
     
     <tr>
       

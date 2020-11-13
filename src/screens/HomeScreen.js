@@ -3,8 +3,7 @@ import data from '../data';
 
 
 function HomeScreen () {
-    return <div className='main'>
-             <div className="logo-description">
+    return  <div className="logo-description">
                 {data.logo.map(logo =>                    
                <div className="logo-image">
                 <img className="image" src={logo.image} alt="logo"/>
@@ -18,7 +17,7 @@ function HomeScreen () {
                     
               </div>
               
-              </div>
+             
                 
                
 } 

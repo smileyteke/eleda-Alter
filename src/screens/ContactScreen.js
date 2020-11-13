@@ -3,15 +3,12 @@ import React from 'react';
 
 
 function ContactScreen (props) {    
-    return   <div className= 'main'> 
-    <div className='contact'>  
+    return    <div className='email'>               
+               <h4> eledaalter@hotmail.com</h4> 
+               <a href="https://www.facebook.com/eledaalterations" target='blank' class="fa fa-facebook"></a>
+               </div>                            
            
-             <a href='https://facebook.com/eledaalterations' target='blank'>facebook.com/eledaalterations</a>
-             </div> 
-             <div className='email'>
-             <h4> eledaalter@hotmail.com</h4>     </div>                            
-           
-             </div>
+              
           
         } 
 export default ContactScreen;

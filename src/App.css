@@ -4,6 +4,7 @@ html{
 }
 body { 
   height: 100vh;
+  background-color: transparent;  
  
 }
 #root{
@@ -16,7 +17,8 @@ body {
   'main'
   'footer'; 
   height: 100%;
-  background-color: #c7c3c3;  
+  /* background-color: #c7c3c3;   */
+ 
 }
 
 .main{
@@ -26,8 +28,9 @@ body {
   'main'
   'footer'; 
   height: 100%;
-  background-color: #c7c3c3;   
-
+  background-color:transparent;   
+  background-image: url('./screens/d2.jpg');
+  background-repeat: round;
 }
 .header{
   grid-area: header;
@@ -53,7 +56,7 @@ body {
   margin-top: 3rem;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  
 }
 .description{
   display: block;
@@ -101,69 +104,43 @@ footer{
   min-height: 50px;
   font: 1.6rem Helvetica;
 }
- .contact {
-   font-size: xx-large;
-   margin-right: auto;
-   margin-left: auto;
-   border: none;
-    padding: 2rem;   
-    /* box-shadow: 50px 50px 15px #888888;  */
-   
-}
-.contact :hover{
-  color: orange;
-}
   a :hover{
   color: orange;
 }
 .email{
-  font-size: xx-large;
+ 
   margin-left: auto;
   margin-right: auto;
   border: solid;
   border-color: rgb(36, 37, 39);
-  padding: 2rem;
+  padding-left: 2rem;
+  padding-top: 4rem;  
+  padding-right: 2rem;  
   border-radius: 50%;
    box-shadow: 50px 50px 15px #888888; 
+   background-color: #c7c3c3;
 }
-
-@media all and (max-width:500px){
-  .grid-container{
-    display: inline-grid;
-    grid-template-areas: 
-    'header'
-    'main'
-    'footer';  
-      
-  }  
+h4{
+  font-size: xx-large;
+  padding-left: 2rem;
+  padding-top: 4rem;  
+  padding-right: 2rem;
 }
-.social-container {
-  
-  padding: 25px 50px;
-}
-a.social {
-  margin: 0 1rem;
-  transition: transform 250ms;
-  display: inline-block;
-}
-a.social:hover {
-  transform: translateY(-2px);
-}
-
-a.facebook {
-  color: #4968ad;
+.email a{
+  margin-top:-6rem;
+   
 }
 .table{
   display: table;
-    background-color: darkgray;   
-    width: 80%;  
+    background-color: darkgray; 
     box-shadow: 50px 50px 15px #888888;  
     margin-left: auto;
     margin-right: auto;
     margin-top: 3rem;
     margin-bottom: 5rem;
     border-radius: 10%;
-    
+    padding-right: 4rem;
+    padding-left: 1rem;
 }
 tbody{
   display: table;
@@ -172,10 +149,9 @@ tbody{
   margin-top: 1.5rem;
 }
 th{
-  /* display: flex; */
+  
   font-weight: bold;
-  font-size: xx-large;
-  /* background-color: lightblue; */
+  font-size: xx-large; 
   float: left;
   margin-left: 3rem;
 }
@@ -184,8 +160,30 @@ td{
   font-size: x-large;
 }
 tr{
-  background-color: inherit;
+  background-color: inherit; 
   
+}
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
 
-  
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 13rem;
+  border-radius: 50%;
+   box-shadow: 50px 50px 15px #888888; 
+  }
+ 
+  .fa:hover {
+  opacity: 0.7;
+  background: orange;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
 }
